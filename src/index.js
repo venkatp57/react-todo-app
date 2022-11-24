@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import TodoContainer from './functionBased/components/TodoContainer';
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import About from "./functionBased/pages/About";
 import NotMatch from "./functionBased/pages/NotMatch";
 import Layout from './functionBased/pages/Layout';
